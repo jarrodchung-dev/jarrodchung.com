@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "mcp": {
+      "servers": {
+        "cmdr": {
+          "args": ["@wonderwhy-er/desktop-commander"],
+          "command": "pnpx",
+        },
+        "perplexity-ask": {
+          "args": ["server-perplexity-ask"],
+          "command": "pnpx",
+          "env": {
+            "PERPLEXITY_API_KEY": "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",
+          },
+        },
+        "things": {
+          "args": ["--directory", "/Users/jarrodchung/dev/things-mcp", "run", "things_server.py"],
+          "command": "/Users/jarrodchung/.local/bin/uv",
+        },
+      },
+    },
+  },
+}
